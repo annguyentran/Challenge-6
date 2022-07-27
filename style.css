@@ -1,0 +1,77 @@
+* {
+
+
+}
+
+
+#weatheringHeader {
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #0c7dab;
+
+}
+
+.box {
+    display: grid;
+    background: aqua;
+    grid-template-areas:
+        "sidebar"
+        "sidebar";
+
+}
+
+.box div {
+    border: 1px solid red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+}
+
+#searchBoxContainer {
+    grid-area: sidebar;
+    margin: 25px;
+
+}
+
+#cityInfoContainer {
+    margin: 25px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
+#forcastContainer{
+    margin: 25px;
+    grid-column: 2/4;
+}
+
+
+#submitBox header {
+    
+}
+
+#submitBox input {
+margin-bottom: 10px;
+}
+
+#submitBox button {
+margin-bottom: 25px;
+
+
+}
+
+.picture {
+
+    width: 50px;
+
+}
+
+#forcastBoxContainer {
+    display: flex;
+    flex-direction: row;
+    border-width: thick;
+    justify-content: space-evenly;
+
+}
