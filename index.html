@@ -18,15 +18,15 @@
                 <Header><strong>Search for a City:</strong></Header>
                 <form id="userForm"></form>
                 <input id = "cityInput" type="text">
-                <button aria-label="Search">Search</button>
+                <button onclick= "searchCity()" aria-label="Search">Search</button>
                 <div id="searchedCities"></div>
             </div>
         </div>
 
         <div id='cityInfoContainer'> 
-          <header id = 'cityName'></header><strong>City (Date)</strong></header>
+          <header id = 'cityName'><strong>City (Date)</strong></header>
           <p id="currentCityTemp">Temperature:</p>
-          <p id="currentWindTemp">Wind:</p>
+          <p id="currentWind">Wind:</p>
           <p id="currentHumidity">Humidity:</p>
           <p id="currentUV">UV:</p>
 
@@ -35,7 +35,7 @@
 
         <div id='forcastContainer'>
            <div id="forcastBoxContainer">
-            <div id="forcastBox1">
+   <!----       <div id="forcastBox1">  
                 <header class="weather" id="weatherDate1">Date:</header>
                 <img class="picture" id src="./weather.png" alt="">
                 <p class="temperature" id="tempNumber1">Temperature:</p>
@@ -69,7 +69,7 @@
                 <p class="temperature" id="tempNumber5">Temperature:</p>
                 <p class="wind" id="windNumber5">Wind:</p>
                 <p class="humidity" id="humidityNumber5">Humidity:</p>
-            </div>
+            </div>  -->
         </div>
         </div>
 
@@ -79,8 +79,8 @@
 
     <h1><Strong>testing</Strong></h1>
 
-    <script src="logic.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="logic.js"></script>
 </body>
 
 </html>
