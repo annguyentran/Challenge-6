@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathering API</title>
+    <link rel="stylesheet" href= C:\Users\nguye\Desktop\REPOS\Challenge-6\CSS\style.css>
+</head>
+
+<body>
+    <h1 id="weatheringHeader"> <Strong>Weather Dashboard </Strong></h1>
+
+    <div class='box'>
+        <div id='searchBoxContainer'>
+            <div id='submitBox'>
+                <Header><strong>Search for a City:</strong></Header>
+                <form id="userForm"></form>
+                <input id = "cityInput" type="text">
+                <button onclick= "searchCity()" aria-label="Search">Search</button>
+                <div id="searchedCities"></div>
+            </div>
+        </div>
+
+        <div id='cityInfoContainer'> 
+          <header id = 'cityName'><strong>City (Date)</strong></header>
+          <p id="currentCityTemp">Temperature:</p>
+          <p id="currentWind">Wind:</p>
+          <p id="currentHumidity">Humidity:</p>
+          <p id="currentUV">UV:</p>
+
+        </div>
+        
+
+        <div id='forcastContainer'>
+           <div id="forcastBoxContainer"></div>
+        </div>
+
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src=C:\Users\nguye\Desktop\REPOS\Challenge-6\JAVASCRIPT\logic.js></script>
+</body>
+
+</html>
