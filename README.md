@@ -7,3 +7,4 @@ UV index. The user's search will be added to the recent search history below the
 and up to 5 cities can be saved at a time.
 
 
+<img width="960" alt="2022-08-06 (2)" src="https://user-images.githubusercontent.com/107017473/183271964-ce8c333d-c324-431e-8220-65cd1902a49b.png">
