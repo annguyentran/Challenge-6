@@ -9,7 +9,7 @@ function getinfo() {
 }
 
 function weatherFetch(city) {
-    fetch("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial&appid=c1b5cc60aa24f5931e48ec067693e189")
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial&appid=c1b5cc60aa24f5931e48ec067693e189")
         .then(response => response.json())
         .then((data) => this.displayWeather(data));
 
@@ -47,7 +47,7 @@ function searchCity() {
 
 
 function next5Days(latitude, longitude) {
-    fetch("http://api.openweathermap.org/data/2.5/onecall?lat=" + latitude + "&lon=" + longitude + "&units=imperial&appid=c1b5cc60aa24f5931e48ec067693e189")
+    fetch("https://api.openweathermap.org/data/2.5/onecall?lat=" + latitude + "&lon=" + longitude + "&units=imperial&appid=c1b5cc60aa24f5931e48ec067693e189")
         .then(response => response.json())
         .then(function (data) {
             display5Days(data)
